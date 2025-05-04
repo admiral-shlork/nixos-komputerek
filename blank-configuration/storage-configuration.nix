@@ -13,9 +13,13 @@
       systemd-boot.enable = true;
       efi.canTouchEfiVariables = true;
     };
+    
+    extraModprobeConfig = ''
+      options snd-intel-dspcfg dsp_driver=1
+    '';
 
     initrd.luks.devices = let
-      luks_root_uuid = "00000000000000000000000000000";
+      luks_root_uuid = "d13a5329-d607-4d79-9294-7752fc09f7dd";
     in {
       # LUKS container with root partition
       "luks-${luks_root_uuid}" = {

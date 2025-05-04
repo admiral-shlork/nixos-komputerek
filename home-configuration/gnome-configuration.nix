@@ -60,7 +60,7 @@
         date-menu-formatter.extensionUuid
         night-theme-switcher.extensionUuid
         no-overview.extensionUuid
-        andom-wallpaper.extensionUuid
+        random-wallpaper.extensionUuid
       ];
     };
     # Date-menu-formatter preferences
