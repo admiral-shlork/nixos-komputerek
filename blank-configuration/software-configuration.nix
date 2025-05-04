@@ -25,6 +25,7 @@
     gnomeExtensions.date-menu-formatter
     gnomeExtensions.night-theme-switcher
     gnomeExtensions.no-overview
+    gnomeExtensions.random-wallpaper
     home-manager
     htop
     nh

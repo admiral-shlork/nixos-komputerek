@@ -13,18 +13,17 @@
     stateVersion = "24.11";
     packages = with pkgs; [
       calibre
+      darktable
       dropbox
       evince
-      floorp
       gimp
       gnome-screenshot
       keepassxc
       libreoffice
       librewolf
-      # lutris
-      # mangohud
       obsidian
       protonvpn-gui
+      rawtherapee
       signal-desktop
       telegram-desktop
       ungoogled-chromium

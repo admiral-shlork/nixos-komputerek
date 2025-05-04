@@ -35,6 +35,14 @@
     ];
   };
 
+  services.displayManager = {
+    autoLogin.enable = true;
+    autoLogin.user = "justyna";
+  };
+
+  systemd.services."getty@tty1".enable = false;
+  systemd.services."autovt@tty1".enable = false;
+
   nixpkgs.config.allowUnfree = true;
 
   system.stateVersion = "24.11";
