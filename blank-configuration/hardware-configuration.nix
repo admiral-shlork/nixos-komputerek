@@ -5,6 +5,10 @@
   nixpkgs.config.nvidia.acceptLicense = true;
 
   hardware.cpu.intel.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
+  
+  # wifi
+  hardware.enableAllFirmware = true;
+  hardware.firmware = [ pkgs.linux-firmware ];
 
   hardware.graphics.enable = true;
 

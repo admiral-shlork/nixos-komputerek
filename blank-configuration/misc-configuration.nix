@@ -19,10 +19,10 @@
     LC_TIME = "en_IE.UTF-8";
   };  
 
-  console.keyMap = "pl2";
+  console.keyMap = "ie";
 
   services.xserver.xkb = {
-    layout = "pl";
+    layout = "ie";
     variant = "";
   };
 
@@ -30,7 +30,7 @@
     home = "/home/justyna";
     isNormalUser = true;
     description = "justyna";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
     ];
   };

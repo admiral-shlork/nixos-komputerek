@@ -60,12 +60,12 @@
         date-menu-formatter.extensionUuid
         night-theme-switcher.extensionUuid
         no-overview.extensionUuid
-        andom-wallpaper
+        andom-wallpaper.extensionUuid
       ];
     };
     # Date-menu-formatter preferences
     "org/gnome/shell/extensions/date-menu-formatter" = {
-      pattern = "EEEE, d MMMM yyyy | HH:mm:ss";
+      pattern = "EEEE, d MMMM yyyy  -  HH:mm:ss";
       text-align = "right";
       update-level = "2";
     };

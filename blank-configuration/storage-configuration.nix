@@ -6,8 +6,8 @@
     initrd.kernelModules = [ "dm-snapshot" ];
     # initrd.kernelModules = [ ];
     kernelModules = [ "kvm-intel" ];
-    kernelPackages = pkgs.linuxPackages_6_12; #kernelPackages = pkgs.linuxPackages_latest;
-    kernelParams = [ "kvm.enable_virt_at_load=0" ];
+    # kernelPackages = pkgs.linuxPackages_latest; # pkgs.linuxPackages_6_12;
+    kernelParams = [ ];
     extraModulePackages = [ ];
     loader = {
       systemd-boot.enable = true;

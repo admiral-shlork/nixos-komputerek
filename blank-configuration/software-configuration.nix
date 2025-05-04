@@ -29,7 +29,6 @@
     home-manager
     htop
     nh
-    veracrypt
     vim
     vscodium
     wget
