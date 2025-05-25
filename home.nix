@@ -10,7 +10,7 @@
   home = {
     username = "justyna";
     homeDirectory = "/home/justyna";
-    stateVersion = "24.11";
+    stateVersion = "25.05";
     packages = with pkgs; [
       calibre
       darktable
