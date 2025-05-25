@@ -38,6 +38,7 @@
     (with pkgs; [
       atomix
       cheese
+      decibels
       epiphany
       evince
       geary
