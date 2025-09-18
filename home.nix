@@ -12,6 +12,7 @@
     homeDirectory = "/home/justyna";
     stateVersion = "25.05";
     packages = with pkgs; [
+      alpaca
       calibre
       darktable
       dropbox
