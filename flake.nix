@@ -2,8 +2,8 @@
   description = "komputerek Flake";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-25.05";
-    home-manager.url = "github:nix-community/home-manager/release-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    home-manager.url = "github:nix-community/home-manager/release-25.11";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
     # use the following for unstable:

@@ -27,7 +27,7 @@
       rawtherapee
       signal-desktop
       telegram-desktop
-      ungoogled-chromium
+      # ungoogled-chromium
       vivaldi
       vlc
     ];
